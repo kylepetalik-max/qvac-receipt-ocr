@@ -18,7 +18,7 @@ Built for the Whop bounty: *Build a local AI app with Tether's QVAC SDK*.
 |------|---------|
 | **Node.js** | `>= 22.17` |
 | **npm** | `>= 10.9` |
-| **@qvac/sdk** | `>= 0.19.0` (this project pins current release) |
+| **@qvac/sdk** | `>= 0.19.0` (installed: **0.19.1** / `^0.19.0`) |
 | OS | Linux / macOS / Windows (see [QVAC system requirements](https://docs.qvac.tether.io/system-requirements)) |
 | RAM | ~2 GB+ free recommended for first model load |
 | Disk | several GB free for the OCR model cache (`~/.qvac/models`) |
