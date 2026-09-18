@@ -1,0 +1,49 @@
+▸ qvac-receipt-ocr — on-device OCR (Tether QVAC)
+▸ Image: /workspace/bag/apps/2026-09-17-1819/qvac-receipt-ocr/assets/sample-receipt.png
+▸ SDK model: OCR_LATIN (ggml-ocr)
+▸ Inference: local only (no cloud AI)
+▸ Loading OCR model (download on first run)...
+▸ Model loaded. id=f2eb89032f1a0478
+▸ Running OCR...
+▸ OCR Results
+▸ ================================
+  BOLTORIUM COFFEE  (conf 0.997)
+    bbox: [39, 31, 290, 55]
+  4964 Salish Dr, Powell River BC  (conf 0.663)
+    bbox: [37, 68, 261, 86]
+  Tel: 604-344-0259  (conf 0.832)
+    bbox: [37, 95, 169, 110]
+  ZX ossadsa  (conf 0.660)
+    bbox: [37, 160, 148, 184]
+  $7.00  (conf 0.662)
+    bbox: [203, 161, 257, 181]
+  Oat Latte  (conf 0.981)
+    bbox: [39, 191, 125, 209]
+  05*5$  (conf 0.558)
+    bbox: [191, 191, 245, 211]
+  Banana Bread  (conf 0.999)
+    bbox: [39, 220, 167, 239]
+  SZ't$  (conf 0.577)
+    bbox: [216, 221, 270, 241]
+  TOTAL  (conf 1.000)
+    bbox: [38, 286, 120, 310]
+  $16.75  (conf 0.773)
+    bbox: [229, 283, 321, 313]
+  Paid: VISA *++*4242  (conf 0.640)
+    bbox: [39, 324, 179, 341]
+  Date: 2026-09-17 18:19 PT  (conf 0.714)
+    bbox: [39, 355, 231, 370]
+  Thank you!  (conf 0.914)
+    bbox: [37, 399, 120, 418]
+▸ ================================
+▸ Receipt summary (heuristic)
+  lines: 14
+  total?: 16.75
+  date?:  2026-09-17
+  card?:  (not detected)
+▸ Timing
+  detection: 5.525514726 ms
+  recognition: 1.7996197340000002 ms
+  total: 7.344065763 ms
+▸ Unloading model...
+▸ Done. All inference was on-device.
