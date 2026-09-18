@@ -1,0 +1,8 @@
+node_modules/
+.qvac/
+*.log
+.DS_Store
+.env
+.env.*
+dist/
+coverage/
